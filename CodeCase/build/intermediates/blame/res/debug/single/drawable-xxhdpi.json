@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_ab_drawer.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-xxhdpi\\ic_ab_drawer.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

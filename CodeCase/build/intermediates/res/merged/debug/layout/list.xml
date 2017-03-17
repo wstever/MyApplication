@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnlo"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="120dp"
+            android:text="密码盒子"
+            android:textColor="#d35117"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/code_case_iv_box"
+        android:layout_width="180dip"
+        android:layout_height="180dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/box" />
+
+    <TextView
+        android:id="@+id/code_case_tv_nothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code_case_iv_box"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="这里什么都没有哎"
+        android:textColor="#c1c1c1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/code_case_tv_addsth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code_case_tv_nothing"
+        android:layout_centerHorizontal="true"
+        android:text="快点这里添加吧~"
+        android:textColor="#c1c1c1"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/lnlo"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="blocksDescendants"
+        android:minHeight="60dp"></ListView>
+
+    <include layout="@layout/add" />
+
+</RelativeLayout>

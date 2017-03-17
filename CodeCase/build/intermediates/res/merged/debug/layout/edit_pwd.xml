@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="#000000">
+
+        <ImageButton
+            android:id="@+id/ib_edit_pwd_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sub_title_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/ib_edit_pwd_back"
+            android:text="修改原始密码"
+            android:textColor="#d35117"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_before_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="原始的密码"
+            android:textColor="#d35117"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_before_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_below="@id/tv_before_pwd"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_unpressed"
+            android:textColor="@color/color_2"></EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_after_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="修改的密码"
+            android:textColor="#d35117"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_after_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_below="@id/tv_after_pwd"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_unpressed"
+            android:textColor="@color/color_2"></EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_after_pwd_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="确认密码"
+            android:textColor="#d35117"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_after_pwd_check"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_below="@id/tv_after_pwd_check"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_unpressed"
+            android:textColor="@color/color_2"></EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="30dp"
+            android:background="@drawable/button">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="保存"
+                android:textColor="#d35117"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_return"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="30dp"
+            android:background="@drawable/button">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="返回"
+                android:textColor="#d35117"
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

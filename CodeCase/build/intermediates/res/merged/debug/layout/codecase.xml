@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#f5b45b">
+
+
+        <ImageView
+            android:id="@+id/code_case_iv_box"
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/box" />
+
+        <TextView
+            android:id="@+id/code_case_tv_nothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/code_case_iv_box"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="这里什么都没有哎"
+            android:textColor="#c1c1c1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/code_case_tv_addsth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/code_case_tv_nothing"
+            android:layout_centerHorizontal="true"
+            android:text="快点这里添加吧~"
+            android:textColor="#c1c1c1"
+            android:textSize="20sp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/main_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="afterDescendants"
+            android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+
+        <include layout="@layout/add" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

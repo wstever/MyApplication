@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shadow.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\shadow.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_unpressed.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\button_unpressed.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_history_delete.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\btn_history_delete.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\four.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\four.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lock_pressed.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\lock_pressed.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\one.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\one.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zero.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\zero.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\eight.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\eight.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\two.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\two.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\add_unpressed.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\add_unpressed.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_ab_drawer.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\ic_ab_drawer.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index_search_icon.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\index_search_icon.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\plus.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\plus.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_item_bg.9.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\message_item_bg.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\unlock.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\unlock.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\six.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\six.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sub_title_back.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\sub_title_back.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_item_bg_pressed.9.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\message_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_pressed.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\button_pressed.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lock.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\lock.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sure.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\sure.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\code.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\code.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nine.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\nine.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\box.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\box.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\usr_avatar.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\usr_avatar.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\three.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\three.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_card.9.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\background_card.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checked.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\checked.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rollback.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\rollback.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\five.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\five.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\unchecked.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\unchecked.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\finger.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\finger.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seven.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\seven.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\add_pressed.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\add_pressed.png"
+    }
+]
