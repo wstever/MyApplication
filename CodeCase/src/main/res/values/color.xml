@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#bf360c</color>
+    <color name="ripple_red">#ffbf5232</color>
+    <color name="orange_normal">#f39007</color>
+
+    <color name="material_teal">@color/material_deep_teal_500</color>
+    <color name="ripple_material_teal">#ff149691</color>
+
+    <color name="blue">#304f9f</color>
+    <color name="grey">@color/material_blue_grey_800</color>
+    <color name="light">@color/primary_material_light</color>
+
+    <color name="colorPrimary">#F39007</color>
+    <color name="colorPrimaryDark">#ffbf5232</color>
+
+    <color name="windowBackgroundColor">#333333</color>
+    <color name="black_translucent">#80000000</color>
+    <!-- toolbar（actionbar）颜色 -->
+    <color name="Primary_color">#2196F3</color>
+    <!-- 状态栏颜色 -->
+    <color name="PrimaryDark_color">#1974D2</color>
+    <!-- accent color -->
+    <color name="Accent_color">#03A9F4</color>
+    <!-- primary text -->
+    <color name="Primary_text">#212121</color>
+    <!-- light primary color -->
+    <color name="Light_Primary_color">#BBDEFB</color>
+    <!-- secondary text -->
+    <color name="secondary_text">#727272</color>
+    <!-- text/icon -->
+    <color name="text_icon">#FFFFFF</color>
+    <!-- divider color -->
+    <color name="divider_color">#B6B6B6</color>
+
+    <color name="week_bg">#F7F7F7</color>
+
+    <color name="color_0">#dedede</color>
+    <color name="color_1">#7cc576</color>
+    <color name="color_2">#2a4253</color>
+    <color name="color_3">#f26d7e</color>
+    <color name="color_4">#a286c0</color>
+    <color name="color_5">#f5f5f5</color>
+    <color name="color_6">#33ff66</color>
+    <color name="color_7">#43BBE7</color>
+    <color name="color_8">#E1E6F6</color>
+
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#c5c5c5</color>
+
+
+    <!--豆瓣250-->
+    <color name="color_1a1a1a">#1a1a1a</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="half_transparent">#88000000</color>
+    <color name="white">#ffffff</color>
+</resources>

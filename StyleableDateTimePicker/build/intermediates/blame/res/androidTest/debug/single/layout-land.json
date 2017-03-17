@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\date_picker_dialog.xml",
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\debug\\res\\layout-land\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land\\time_picker_dialog.xml",
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\debug\\res\\layout-land\\time_picker_dialog.xml"
+    }
+]
