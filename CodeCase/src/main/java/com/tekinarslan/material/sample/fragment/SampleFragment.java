@@ -24,17 +24,12 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class SampleFragment extends Fragment implements View.OnClickListener {
-
     private static final String ARG_POSITION = "position";
-
     private int position;
-
-
     private Button mBtnFromTime;
-
     private Button mBtnToTime;
-
     private Button mBtnDate;
+    private Button stutyButton;
 
     public static SampleFragment newInstance(int position) {
         SampleFragment f = new SampleFragment();
