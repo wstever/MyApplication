@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/StyleableDateTimePicker/StyleableDateTimePicker.iml" filepath="$PROJECT_DIR$/StyleableDateTimePicker/StyleableDateTimePicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidsamplestudy/androidsamplestudy.iml" filepath="$PROJECT_DIR$/androidsamplestudy/androidsamplestudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/burt/burt.iml" filepath="$PROJECT_DIR$/burt/burt.iml" />
     </modules>
   </component>
 </project>
