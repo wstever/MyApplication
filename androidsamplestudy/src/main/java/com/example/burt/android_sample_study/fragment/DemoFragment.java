@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.example.burt.android_sample_study.MainActivity;
 import com.example.burt.android_sample_study.R;
+import com.example.burt.android_sample_study.recyclerview.RecyclerLayoutManagerChangeActivity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -79,7 +80,7 @@ public class DemoFragment extends Fragment {
 
 
     private void initData() {
-        textList.add(" 1");
+        textList.add("RecyclerView含有Grid和Liner转换的Spinner");
         textList.add("2  ");
         textList.add("3 ");
         textList.add("4 ");
@@ -88,7 +89,7 @@ public class DemoFragment extends Fragment {
         textList.add("7");
 
 
-        classList.add(MainActivity.class);
+        classList.add(RecyclerLayoutManagerChangeActivity.class);
         classList.add(MainActivity.class);
         classList.add(MainActivity.class);
         classList.add(MainActivity.class);
@@ -96,6 +97,7 @@ public class DemoFragment extends Fragment {
         classList.add(MainActivity.class);
         classList.add(MainActivity.class);
 
+        //不管我的顺序什么,在这里都会被排序的~
         Collections.sort(textList);
 
         Collections.sort(classList, new Comparator<Class>() {
