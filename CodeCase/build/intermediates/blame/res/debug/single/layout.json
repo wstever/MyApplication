@@ -80,12 +80,12 @@
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\list.xml",
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
@@ -172,12 +172,12 @@
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\layout\\fragment_top250.xml"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\time_header_label.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout\\time_header_label.xml"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\rv_item_code_case.xml",
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\layout\\rv_item_code_case.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\time_header_label.xml",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout\\time_header_label.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\douban_layout.xml",
@@ -236,12 +236,12 @@
         "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout\\date_picker_done_button.xml"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_dialog.xml",
         "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout\\time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",

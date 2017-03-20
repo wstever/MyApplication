@@ -96,12 +96,12 @@
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\nine.png"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\box.png",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\box.png"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\usr_avatar.png",
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\usr_avatar.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\box.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\box.png"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\three.png",

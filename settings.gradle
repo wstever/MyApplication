@@ -1,1 +1,1 @@
-include ':CodeCase', ':StyleableDateTimePicker', ':MaterialDesign', ':androidsamplestudy'
+include ':CodeCase', ':StyleableDateTimePicker', ':MaterialDesign', ':androidsamplestudy', ':recycleviewdemo_change_grid', ':recycleviewdemo_delete_add_longclick_anim'

@@ -26,6 +26,7 @@ public class DemoFragment extends Fragment {
     private List<String> textList = new ArrayList<>();
     private List<Class> classList = new ArrayList<>();
 
+    private View rootView;
 
     public static DemoFragment newInstance(String info) {
         Bundle args = new Bundle();
@@ -36,17 +37,9 @@ public class DemoFragment extends Fragment {
     }
 
 
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        initData();
-    }
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_demo, null);
 
 
         // TextView tvInfo = (TextView) view.findViewById(R.id.tvInfo);
@@ -54,7 +47,7 @@ public class DemoFragment extends Fragment {
         // tvInfo.setOnClickListener(new View.OnClickListener() {
         //      @Override
         //      public void onClick(View v) {
-        //          Snackbar.make(v, "hello", Snackbar.LENGTH_SHORT).show();
+        //
         //       }
         //   });
 
@@ -63,13 +56,25 @@ public class DemoFragment extends Fragment {
         //getActivity().setSwipeBackEnable(false);
         //initToolbarAsHome("吴小龙同學");
 
-        recyclerView = (RecyclerView) view.findViewById(R.id.recycleerView);
+        if (null != rootView) {
+            ViewGroup parent = (ViewGroup) rootView.getParent();
+            if (null != parent) {
+                parent.removeView(rootView);
+            }
+        } else {
+            rootView = inflater.inflate(R.layout.fragment_demo, null);
+            initView(rootView);// 控件初始化
+        }
+        return rootView;
+    }
+
+    private void initView(View rootView) {
+        initData();
+        recyclerView = (RecyclerView) rootView.findViewById(R.id.recycleerView);
         recyclerViewAdatper = new RecyclerViewAdapter();
         recyclerView.setAdapter(recyclerViewAdatper);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-
-        return view;
     }
 
 

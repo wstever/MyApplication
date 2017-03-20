@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/StyleableDateTimePicker/StyleableDateTimePicker.iml" filepath="$PROJECT_DIR$/StyleableDateTimePicker/StyleableDateTimePicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidsamplestudy/androidsamplestudy.iml" filepath="$PROJECT_DIR$/androidsamplestudy/androidsamplestudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleviewdemo_change_grid/recycleviewdemo_change_grid.iml" filepath="$PROJECT_DIR$/recycleviewdemo_change_grid/recycleviewdemo_change_grid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleviewdemo_delete_add_longclick_anim/recycleviewdemo_delete_add_longclick_anim.iml" filepath="$PROJECT_DIR$/recycleviewdemo_delete_add_longclick_anim/recycleviewdemo_delete_add_longclick_anim.iml" />
     </modules>
   </component>
 </project>

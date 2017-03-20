@@ -36,10 +36,12 @@ public class FunctionListFragment extends Fragment {
     }
 
 
+    private View rootView;
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_function_list, null);
 //        TextView tvInfo = (TextView) view.findViewById(R.id.tvInfo);
 //        tvInfo.setText(getArguments().getString("info"));
 //        tvInfo.setOnClickListener(new View.OnClickListener() {
@@ -48,12 +50,25 @@ public class FunctionListFragment extends Fragment {
 //                Snackbar.make(v, "hello", Snackbar.LENGTH_SHORT).show();
 //            }
 //        });
+
+        if (null != rootView) {
+            ViewGroup parent = (ViewGroup) rootView.getParent();
+            if (null != parent) {
+                parent.removeView(rootView);
+            }
+        } else {
+            rootView = inflater.inflate(R.layout.fragment_function_list, null);
+            initView(rootView);// 控件初始化
+        }
+        return rootView;
+    }
+
+    private void initView(View rootView) {
         initData();
-        recyclerView = (RecyclerView) view.findViewById(R.id.recycleerView);
+        recyclerView = (RecyclerView) rootView.findViewById(R.id.recycleerView);
         mRecyclerViewAdapter = new RecyclerViewAdapter();
         recyclerView.setAdapter(mRecyclerViewAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        return view;
     }
 
 

@@ -54,14 +54,24 @@ public class CodeCaseFragment extends Fragment {
         return f;
     }
 
+    private View rootView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         position = getArguments().getInt(ARG_POSITION);
-        View rootView = inflater.inflate(R.layout.codecase, container, false);
+        if (null != rootView) {
+            ViewGroup parent = (ViewGroup) rootView.getParent();
+            if (null != parent) {
+                parent.removeView(rootView);
+            }
+        } else {
+            rootView = inflater.inflate(R.layout.codecase, container, false);
+            initView(rootView);// 控件初始化
+        }
+        return rootView;
+    }
 
-
+    private void initView(View rootView) {
         getList();
-
         //如果该列表里面没有东西
         code_case_tv_nothing = (TextView) rootView.findViewById(R.id.code_case_tv_nothing);
         code_case_tv_addsth = (TextView) rootView.findViewById(R.id.code_case_tv_addsth);
@@ -105,12 +115,7 @@ public class CodeCaseFragment extends Fragment {
             // 提交当前数据
             editor.commit();
         }
-
-
-
 */
-
-        return rootView;
     }
 
 
