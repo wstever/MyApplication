@@ -120,12 +120,12 @@
         "source": "D:\\demo\\MyApplication\\MaterialDesign\\src\\main\\res\\drawable-xhdpi\\ic_reloj_max.png"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\float_button_shadow1.png",

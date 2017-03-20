@@ -64,16 +64,16 @@
         "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\number_indicator_spinner.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\number_indicator_spinner.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\number_indicator_spinner.xml"
+        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",

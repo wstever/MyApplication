@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import com.example.burt.android_sample_study.fragment.DemoFragment;
 import com.example.burt.android_sample_study.fragment.FunctionListFragment;
 import com.example.burt.android_sample_study.fragment.ViewListFragment;
+import com.example.burt.android_sample_study.fragment.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -48,12 +48,12 @@
         "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xxxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xxxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",

@@ -98,7 +98,7 @@ public class DoubanFragment extends BaseFragment implements View.OnClickListener
         if (top250Adapter != null) {
             top250Adapter.clear();
         }
-        requestData(0, 20);
+        requestData(0, 250);
     }
 
     public void setPreLoadData() {
