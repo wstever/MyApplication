@@ -9,12 +9,9 @@ import com.tekinarslan.material.sample.data.retrofit.RetrofitRepository;
 
 /**
  * fragment 基类
- * <p/>
- * Created on 16/6/27.
  */
 public class BaseFragment extends Fragment {
     RetrofitRepository mRepository;
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

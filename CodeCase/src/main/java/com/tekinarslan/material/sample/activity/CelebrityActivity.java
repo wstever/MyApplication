@@ -28,7 +28,6 @@ import rx.schedulers.Schedulers;
 
 /**
  * 演员详情
- * Created  on 16/7/4.
  */
 public class CelebrityActivity extends BaseActivity {
     private static final String INTENT_KEY_CELEBRITY_ID = "id";
@@ -58,7 +57,6 @@ public class CelebrityActivity extends BaseActivity {
     protected void onNewIntent(Intent intent) {
         getCelebrityDetail(intent);
     }
-
 
 
     /**

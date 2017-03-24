@@ -25,17 +25,17 @@ ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:8:5-79
 		ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:8:22-76
 application
 ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:12:5-36:19
-MERGED from [com.android.support:cardview-v7:23.0.0] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.udaye.library:pulltoload:1.0.0] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.udaye.library\pulltoload\1.0.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:23.0.0] C:\Users\lenovo\.android\build-cache\2007e0f2ab346adb3d8abf5a9f7f9c1080805d88\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\lenovo\.android\build-cache\d655dbb138b7f412bc95f8bf19a030036e100bfb\output\AndroidManifest.xml:22:5-20
+MERGED from [com.udaye.library:pulltoload:1.0.0] C:\Users\lenovo\.android\build-cache\7f10c3a96cef7416f84ccf78fd7ee00c339f1de7\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\lenovo\.android\build-cache\ff0d859cb481a2c7f7bb55268503ba749281ba05\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\lenovo\.android\build-cache\9fb17651ded8424a9d31342dca43145c0e78364c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\lenovo\.android\build-cache\62a4cbd7094192d03d6666419ed1d6aa3176faef\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\lenovo\.android\build-cache\721200f20a3cde7b90b9bdf4a72b8a77cccf3c8a\output\AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from [com.udaye.library:pulltoload:1.0.0] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.udaye.library\pulltoload\1.0.0\AndroidManifest.xml:13:9-41
+		ADDED from [com.udaye.library:pulltoload:1.0.0] C:\Users\lenovo\.android\build-cache\7f10c3a96cef7416f84ccf78fd7ee00c339f1de7\output\AndroidManifest.xml:13:9-41
 	android:allowBackup
 		ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:14:9-35
 	android:icon
@@ -94,18 +94,18 @@ ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:35:9-61
 		ADDED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml:35:19-58
 uses-sdk
 INJECTED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:cardview-v7:23.0.0] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\AndroidManifest.xml:20:5-43
-MERGED from [io.reactivex:rxandroid:1.2.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\AndroidManifest.xml:19:5-43
-MERGED from [com.udaye.library:pulltoload:1.0.0] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.udaye.library\pulltoload\1.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\MyApplication\StyleableDateTimePicker\unspecified\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:cardview-v7:23.0.0] C:\Users\lenovo\.android\build-cache\2007e0f2ab346adb3d8abf5a9f7f9c1080805d88\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\lenovo\.android\build-cache\d655dbb138b7f412bc95f8bf19a030036e100bfb\output\AndroidManifest.xml:20:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\lenovo\.android\build-cache\96c3a3a9e021a317277522fcaf2241113f0f59c9\output\AndroidManifest.xml:19:5-43
+MERGED from [com.udaye.library:pulltoload:1.0.0] C:\Users\lenovo\.android\build-cache\7f10c3a96cef7416f84ccf78fd7ee00c339f1de7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\lenovo\.android\build-cache\ff0d859cb481a2c7f7bb55268503ba749281ba05\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\lenovo\.android\build-cache\9fb17651ded8424a9d31342dca43145c0e78364c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\lenovo\.android\build-cache\62a4cbd7094192d03d6666419ed1d6aa3176faef\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\lenovo\.android\build-cache\72d5cea819a761229549048aba7e587b026afa0a\output\AndroidManifest.xml:20:5-43
+MERGED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplication\StyleableDateTimePicker\build\intermediates\bundles\default\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\lenovo\.android\build-cache\721200f20a3cde7b90b9bdf4a72b8a77cccf3c8a\output\AndroidManifest.xml:21:5-23:54
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.1.1] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.1.1] C:\Users\lenovo\.android\build-cache\ff0d859cb481a2c7f7bb55268503ba749281ba05\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml
 		INJECTED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml
@@ -113,6 +113,6 @@ MERGED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplic
 		INJECTED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml
 		INJECTED from D:\demo\MyApplication\CodeCase\src\main\AndroidManifest.xml
 uses-permission#android.permission.VIBRATE
-ADDED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\MyApplication\StyleableDateTimePicker\unspecified\AndroidManifest.xml:26:5-66
+ADDED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplication\StyleableDateTimePicker\build\intermediates\bundles\default\AndroidManifest.xml:26:5-66
 	android:name
-		ADDED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplication\CodeCase\build\intermediates\exploded-aar\MyApplication\StyleableDateTimePicker\unspecified\AndroidManifest.xml:26:22-63
+		ADDED from [MyApplication:StyleableDateTimePicker:unspecified] D:\demo\MyApplication\StyleableDateTimePicker\build\intermediates\bundles\default\AndroidManifest.xml:26:22-63

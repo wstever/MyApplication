@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.burt.android_sample_study">
 
+    <!--jsondemo中需要使用的用戶權限-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +26,24 @@
         </activity>
 
         <activity
-            android:name=".recyclerview.RecyclerLayoutManagerChangeActivity"/>
+            android:name=".recycler_view.RecyclerLayoutManagerChangeActivity"/>
+        <activity
+            android:name=".json_demo.JsonDemoActivity"/>
+        <activity
+            android:name=".recycler_view_long.SelectActivity"/>
+        <activity
+            android:name=".recycler_view_long.ListViewActivity"/>
+        <activity
+            android:name=".recycler_view_long.RecyclerViewActivity"/>
+        <activity
+            android:name=".weekly_report.WeeklyReportActivity"/>
+        <activity
+            android:name=".weekly_report.WeeklyReportEditActivity"/>
+        <!--MVP页面-->
+        <activity
+            android:name=".mvp_demo.UserLoginActivity"/>
+        <activity
+            android:name=".horizontal_scrollview.HorizontalScrollViewActivity"/>
     </application>
 
 </manifest>

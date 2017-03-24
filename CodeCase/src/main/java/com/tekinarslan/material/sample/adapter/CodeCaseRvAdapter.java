@@ -17,6 +17,8 @@ public class CodeCaseRvAdapter extends RecyclerView.Adapter<MainAdapter.ViewHold
     private CodeCaseRvAdapter.OnItemClickListener mListener;
     private CodeCaseRvAdapter.OnItemLongClickListener mLongListener;
 
+
+
     public CodeCaseRvAdapter(List<CodeCaseBean> dataSet) {
         this.mDataSet = dataSet;
     }
@@ -30,8 +32,10 @@ public class CodeCaseRvAdapter extends RecyclerView.Adapter<MainAdapter.ViewHold
                 if (mListener != null)
                     mListener.onItemClick(v, (String) itemView.getTag());
             }
-
         });
+
+
+
         return new MainAdapter.ViewHolder(itemView);
     }
 

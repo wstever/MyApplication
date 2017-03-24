@@ -8,4 +8,6 @@
         <item>LinearLayoutManager</item>
         <item>GridLayoutManager</item>
     </string-array>
+
+
 </resources>

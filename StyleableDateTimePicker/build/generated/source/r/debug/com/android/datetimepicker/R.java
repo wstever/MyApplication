@@ -262,7 +262,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name com.android.datetimepicker:buttonBackground
         */
-        public static final int DateTimePicker_buttonBackground = 2;
+        public static int DateTimePicker_buttonBackground = 2;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#buttonTextColor}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -274,7 +274,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name com.android.datetimepicker:buttonTextColor
         */
-        public static final int DateTimePicker_buttonTextColor = 3;
+        public static int DateTimePicker_buttonTextColor = 3;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#circleHighlightColor}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -286,7 +286,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name com.android.datetimepicker:circleHighlightColor
         */
-        public static final int DateTimePicker_circleHighlightColor = 4;
+        public static int DateTimePicker_circleHighlightColor = 4;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#defaultTextColor}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -298,7 +298,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name com.android.datetimepicker:defaultTextColor
         */
-        public static final int DateTimePicker_defaultTextColor = 5;
+        public static int DateTimePicker_defaultTextColor = 5;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#headerBackgroundColor}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -310,7 +310,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name com.android.datetimepicker:headerBackgroundColor
         */
-        public static final int DateTimePicker_headerBackgroundColor = 0;
+        public static int DateTimePicker_headerBackgroundColor = 0;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#hightlightedTextColor}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -322,7 +322,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name com.android.datetimepicker:hightlightedTextColor
         */
-        public static final int DateTimePicker_hightlightedTextColor = 1;
+        public static int DateTimePicker_hightlightedTextColor = 1;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#selectedDayTextSize}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -335,7 +335,7 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name com.android.datetimepicker:selectedDayTextSize
         */
-        public static final int DateTimePicker_selectedDayTextSize = 6;
+        public static int DateTimePicker_selectedDayTextSize = 6;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#selectedMonthTextSize}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -348,7 +348,7 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name com.android.datetimepicker:selectedMonthTextSize
         */
-        public static final int DateTimePicker_selectedMonthTextSize = 7;
+        public static int DateTimePicker_selectedMonthTextSize = 7;
         /**
           <p>This symbol is the offset where the {@link com.android.datetimepicker.R.attr#selectedYearTextSize}
           attribute's value can be found in the {@link #DateTimePicker} array.
@@ -361,6 +361,6 @@ Available units are: px (pixels), dp (density-independent pixels), sp (scaled pi
 in (inches), mm (millimeters).
           @attr name com.android.datetimepicker:selectedYearTextSize
         */
-        public static final int DateTimePicker_selectedYearTextSize = 8;
+        public static int DateTimePicker_selectedYearTextSize = 8;
     };
 }

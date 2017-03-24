@@ -14,12 +14,13 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     private List<String> mDataSet = null;
     private OnItemClickListener mListener;
 
+
     public MainAdapter(List<String> dataSet) {
         this.mDataSet = dataSet;
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, final int i) {
         final View itemView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.rv_item_code_case, viewGroup, false);
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +30,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
             }
 
         });
+
         return new ViewHolder(itemView);
     }
 

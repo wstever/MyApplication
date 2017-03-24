@@ -13,11 +13,14 @@ import android.widget.TextView;
 
 import com.example.burt.android_sample_study.MainActivity;
 import com.example.burt.android_sample_study.R;
-import com.example.burt.android_sample_study.recyclerview.RecyclerLayoutManagerChangeActivity;
+import com.example.burt.android_sample_study.horizontal_scrollview.HorizontalScrollViewActivity;
+import com.example.burt.android_sample_study.json_demo.JsonDemoActivity;
+import com.example.burt.android_sample_study.mvp_demo.UserLoginActivity;
+import com.example.burt.android_sample_study.recycler_view.RecyclerLayoutManagerChangeActivity;
+import com.example.burt.android_sample_study.recycler_view_long.SelectActivity;
+import com.example.burt.android_sample_study.weekly_report.WeeklyReportActivity;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 
@@ -81,30 +84,30 @@ public class DemoFragment extends Fragment {
 
     private void initData() {
         textList.add("RecyclerView含有Grid和Liner转换的Spinner");
-        textList.add("2  ");
-        textList.add("3 ");
-        textList.add("4 ");
-        textList.add("5");
-        textList.add("6");
+        textList.add("与Java Web进行通讯");
+        textList.add("长按RecyclerView的事件触发");
+        textList.add("周报模块学习");
+        textList.add("MVPDemo_以登录界面为例");
+        textList.add("Gallery转成了HorizonScrollview");
         textList.add("7");
 
 
         classList.add(RecyclerLayoutManagerChangeActivity.class);
-        classList.add(MainActivity.class);
-        classList.add(MainActivity.class);
-        classList.add(MainActivity.class);
-        classList.add(MainActivity.class);
-        classList.add(MainActivity.class);
+        classList.add(JsonDemoActivity.class);
+        classList.add(SelectActivity.class);
+        classList.add(WeeklyReportActivity.class);
+        classList.add(UserLoginActivity.class);
+        classList.add(HorizontalScrollViewActivity.class);
         classList.add(MainActivity.class);
 
         //不管我的顺序什么,在这里都会被排序的~
-        Collections.sort(textList);
+        // Collections.sort(textList);
 
-        Collections.sort(classList, new Comparator<Class>() {
-            public int compare(Class c1, Class c2) {
-                return c1.getSimpleName().compareTo(c2.getSimpleName());
-            }
-        });
+        //     Collections.sort(classList, new Comparator<Class>() {
+        //         public int compare(Class c1, Class c2) {
+        //            return c1.getSimpleName().compareTo(c2.getSimpleName());
+        //        }
+        //     });
 
     }
 

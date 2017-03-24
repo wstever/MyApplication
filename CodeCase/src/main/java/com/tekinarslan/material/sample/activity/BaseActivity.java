@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.tekinarslan.material.sample.data.retrofit.RetrofitRepository;
 
 
-public   class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends AppCompatActivity {
     RetrofitRepository mRepository;
 
     @Override
@@ -15,7 +15,6 @@ public   class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mRepository = RetrofitRepository.getInstance(this);
     }
-
 
     /*abstract void initActionBar();
 */

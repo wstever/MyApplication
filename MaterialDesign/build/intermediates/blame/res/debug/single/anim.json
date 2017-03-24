@@ -5,11 +5,11 @@
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_top.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\e7ac38603371cbb9def1cdcaba6dc6d63e48adcc\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\e7ac38603371cbb9def1cdcaba6dc6d63e48adcc\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
@@ -21,11 +21,11 @@
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_in.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\e7ac38603371cbb9def1cdcaba6dc6d63e48adcc\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_top.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\e7ac38603371cbb9def1cdcaba6dc6d63e48adcc\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
@@ -37,7 +37,7 @@
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\e7ac38603371cbb9def1cdcaba6dc6d63e48adcc\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
@@ -49,6 +49,6 @@
     },
     {
         "merged": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "D:\\demo\\MyApplication\\MaterialDesign\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\e7ac38603371cbb9def1cdcaba6dc6d63e48adcc\\output\\res\\anim\\abc_slide_in_bottom.xml"
     }
 ]

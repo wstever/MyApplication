@@ -37,6 +37,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
+
 import com.android.datetimepicker.R;
 import com.android.datetimepicker.Utils;
 import com.android.datetimepicker.date.MonthAdapter.CalendarDay;
@@ -197,15 +198,14 @@ public abstract class MonthView extends View {
         int attrCount = attrArray.getIndexCount();
         for (int i = 0; i < attrCount; i++) {
             int attr = attrArray.getIndex(i);
-            switch (attr) {
-                case R.styleable.DateTimePicker_hightlightedTextColor:
-                    ColorStateList stateList = attrArray.getColorStateList(attr);
-                    mTodayNumberColor = stateList.getColorForState(new int[]{android.R.attr.state_selected}, stateList.getDefaultColor());
-                    break;
-                case R.styleable.DateTimePicker_defaultTextColor:
-                    stateList = attrArray.getColorStateList(attr);
-                    mDayTextColor = stateList.getColorForState(new int[]{android.R.attr.state_selected}, stateList.getDefaultColor());
-                    break;
+            ColorStateList stateList;
+            if (attr == R.styleable.DateTimePicker_hightlightedTextColor) {
+                stateList = attrArray.getColorStateList(attr);
+                mTodayNumberColor = stateList.getColorForState(new int[]{android.R.attr.state_selected}, stateList.getDefaultColor());
+            } else if (attr == R.styleable.DateTimePicker_defaultTextColor) {
+                stateList = attrArray.getColorStateList(attr);
+                mDayTextColor = stateList.getColorForState(new int[]{android.R.attr.state_selected}, stateList.getDefaultColor());
+                break;
             }
         }
         mMonthTitleColor = res.getColor(R.color.white);
@@ -336,7 +336,7 @@ public abstract class MonthView extends View {
      * {@link #VIEW_PARAMS_HEIGHT} for more info on parameters.
      *
      * @param params A map of the new parameters, see
-     *            {@link #VIEW_PARAMS_HEIGHT}
+     *               {@link #VIEW_PARAMS_HEIGHT}
      */
     public void setMonthParams(HashMap<String, Integer> params) {
         if (!params.containsKey(VIEW_PARAMS_MONTH) && !params.containsKey(VIEW_PARAMS_YEAR)) {
@@ -496,19 +496,19 @@ public abstract class MonthView extends View {
     /**
      * This method should draw the month day.  Implemented by sub-classes to allow customization.
      *
-     * @param canvas  The canvas to draw on
-     * @param year  The year of this month day
+     * @param canvas The canvas to draw on
+     * @param year   The year of this month day
      * @param month  The month of this month day
-     * @param day  The day number of this month day
-     * @param x  The default x position to draw the day number
-     * @param y  The default y position to draw the day number
-     * @param startX  The left boundary of the day number rect
+     * @param day    The day number of this month day
+     * @param x      The default x position to draw the day number
+     * @param y      The default y position to draw the day number
+     * @param startX The left boundary of the day number rect
      * @param stopX  The right boundary of the day number rect
-     * @param startY  The top boundary of the day number rect
+     * @param startY The top boundary of the day number rect
      * @param stopY  The bottom boundary of the day number rect
      */
     public abstract void drawMonthDay(Canvas canvas, int year, int month, int day,
-            int x, int y, int startX, int stopX, int startY, int stopY);
+                                      int x, int y, int startX, int stopX, int startY, int stopY);
 
     protected int findDayOffset() {
         return (mDayOfWeekStart < mWeekStart ? (mDayOfWeekStart + mNumDays) : mDayOfWeekStart)
@@ -557,7 +557,7 @@ public abstract class MonthView extends View {
 
     /**
      * @return The date that has accessibility focus, or {@code null} if no date
-     *         has focus
+     * has focus
      */
     public CalendarDay getAccessibilityFocus() {
         final int day = mTouchHelper.getFocusedVirtualView();
@@ -580,7 +580,7 @@ public abstract class MonthView extends View {
      *
      * @param day The date which should receive focus
      * @return {@code false} if the date is not valid for this month view, or
-     *         {@code true} if the date received focus
+     * {@code true} if the date received focus
      */
     public boolean restoreAccessibilityFocus(CalendarDay day) {
         if ((day.year != mYear) || (day.month != mMonth) || (day.day > mNumCells)) {
@@ -642,7 +642,7 @@ public abstract class MonthView extends View {
 
         @Override
         protected void onPopulateNodeForVirtualView(int virtualViewId,
-                AccessibilityNodeInfoCompat node) {
+                                                    AccessibilityNodeInfoCompat node) {
             getItemBounds(virtualViewId, mTempRect);
 
             node.setContentDescription(getItemDescription(virtualViewId));
@@ -657,7 +657,7 @@ public abstract class MonthView extends View {
 
         @Override
         protected boolean onPerformActionForVirtualView(int virtualViewId, int action,
-                Bundle arguments) {
+                                                        Bundle arguments) {
             switch (action) {
                 case AccessibilityNodeInfo.ACTION_CLICK:
                     onDayClick(virtualViewId);
@@ -670,7 +670,7 @@ public abstract class MonthView extends View {
         /**
          * Calculates the bounding rectangle of a given time object.
          *
-         * @param day The day to calculate bounds for
+         * @param day  The day to calculate bounds for
          * @param rect The rectangle in which to store the bounds
          */
         protected void getItemBounds(int day, Rect rect) {

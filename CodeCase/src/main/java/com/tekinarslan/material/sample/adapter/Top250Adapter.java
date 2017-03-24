@@ -14,11 +14,6 @@ import com.udaye.library.pullloadlibrary.RecyclerViewCommonAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * top 250
- * <p/>
- * Created on 16/7/12.
- */
 public class Top250Adapter extends RecyclerViewCommonAdapter<Top250Bean.SubjectsBean> {
     /**
      * @param mContext 上下文对象

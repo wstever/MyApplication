@@ -90,6 +90,7 @@ public class CodeCaseFragment extends Fragment {
         rv_show_codecase_list = (RecyclerView) rootView.findViewById(R.id.main_recyclerview);
         rv_show_codecase_list.setLayoutManager(new LinearLayoutManager(getActivity()));
         testListSize();
+        //item的长按事件
 
 /*
         rv_show_codecase_list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -138,9 +139,7 @@ public class CodeCaseFragment extends Fragment {
             mCodeCaseRvAdapter.setOnItemLongClickListener(new CodeCaseRvAdapter.OnItemLongClickListener() {
                 @Override
                 public void onItemLongClick(View view, String data) {
-                    Toast.makeText(getActivity(), "data:" + data, Toast.LENGTH_SHORT).show();
-
-
+                    Toast.makeText(getActivity(), "123:" + data, Toast.LENGTH_SHORT).show();
                 }
             });
 

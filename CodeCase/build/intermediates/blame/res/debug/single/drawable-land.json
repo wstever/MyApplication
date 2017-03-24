@@ -1,10 +1,10 @@
 [
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-land\\done_background_color.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\drawable-land\\done_background_color.xml"
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\default\\res\\drawable-land\\done_background_color.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-land\\done_background_color_dark.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\drawable-land\\done_background_color_dark.xml"
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\default\\res\\drawable-land\\done_background_color_dark.xml"
     }
 ]

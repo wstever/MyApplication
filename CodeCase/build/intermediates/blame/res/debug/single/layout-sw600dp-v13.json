@@ -1,10 +1,10 @@
 [
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout-sw600dp\\design_layout_snackbar.xml"
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\d655dbb138b7f412bc95f8bf19a030036e100bfb\\output\\res\\layout-sw600dp\\design_layout_snackbar.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\date_picker_dialog.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout-sw600dp-v13\\date_picker_dialog.xml"
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\default\\res\\layout-sw600dp-v13\\date_picker_dialog.xml"
     }
 ]

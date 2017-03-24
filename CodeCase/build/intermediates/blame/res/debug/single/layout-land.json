@@ -1,10 +1,10 @@
 [
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout-land\\date_picker_dialog.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout-land\\date_picker_dialog.xml"
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\default\\res\\layout-land\\date_picker_dialog.xml"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\layout-land\\time_picker_dialog.xml",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\exploded-aar\\MyApplication\\StyleableDateTimePicker\\unspecified\\res\\layout-land\\time_picker_dialog.xml"
+        "source": "D:\\demo\\MyApplication\\StyleableDateTimePicker\\build\\intermediates\\bundles\\default\\res\\layout-land\\time_picker_dialog.xml"
     }
 ]
