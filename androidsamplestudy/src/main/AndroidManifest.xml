@@ -42,8 +42,14 @@
         <!--MVP页面-->
         <activity
             android:name=".mvp_demo.UserLoginActivity"/>
+        <!---->
         <activity
             android:name=".horizontal_scrollview.HorizontalScrollViewActivity"/>
+        <!--项目周报界面-->
+        <activity
+            android:name=".project_report.ProjectReportActivity"/>
+        <activity
+            android:name=".project_report.ProjectReportEditActivity"/>
     </application>
 
 </manifest>

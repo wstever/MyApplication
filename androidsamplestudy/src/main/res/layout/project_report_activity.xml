@@ -145,7 +145,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="90dp"
                     android:drawableRight="@android:drawable/ic_input_add"
-                    android:onClick="add_a_finish_item"
+                    android:onClick="add_a_project_finish_item"
                     android:text="新增"/>
             </RelativeLayout>
 
@@ -157,8 +157,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ll_project_finish_title"
-            android:layout_margin="5dp"
-            android:visibility="gone"></android.support.v7.widget.RecyclerView>
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
 
 
         <LinearLayout
@@ -199,7 +198,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="90dp"
                     android:drawableRight="@android:drawable/ic_input_add"
-                    android:onClick="add_a_plan_item"
+                    android:onClick="add_a_project_plan_item"
                     android:text="新增"/>
 
                 <TextView
@@ -218,19 +217,18 @@
         </LinearLayout>
 
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/rv_next_project_plan"
+            android:id="@+id/rv_project_next_week_plan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ll_project_next_week_plan"
-            android:layout_margin="5dp"
-            android:visibility="gone"></android.support.v7.widget.RecyclerView>
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
 
 
         <LinearLayout
             android:id="@+id/ll_project_senior_help"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/rv_next_project_plan"
+            android:layout_below="@+id/rv_project_next_week_plan"
             android:background="@drawable/weekly_report_edit_battery"
             android:orientation="horizontal">
 
@@ -281,8 +279,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ll_project_senior_help"
-            android:layout_margin="5dp"
-            android:visibility="gone"></android.support.v7.widget.RecyclerView>
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -300,6 +297,7 @@
                 android:textSize="20dp"/>
 
             <ImageButton
+                android:onClick="ib_project_progress"
                 android:id='@+id/ib_project_progress'
                 android:layout_width="150dp"
                 android:layout_height="70dp"

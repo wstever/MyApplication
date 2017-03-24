@@ -101,6 +101,17 @@ public class WeeklyReportEditActivity extends Activity implements
         }
     }
 
+
+    public void clean_my_weekly_report_et(View view) {
+        et_weekly_report_edit.clearFocus();
+        et_weekly_report_edit.setText("");
+    }
+
+    public void add_a_weekly_report_brackets(View view) {
+        et_weekly_report_edit.clearFocus();
+        et_weekly_report_edit.setText("【】");
+        et_weekly_report_edit.setSelection(1);//将光标移至项目中
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
