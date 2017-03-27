@@ -128,12 +128,12 @@
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\background.jpg"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\harry_poter.jpg",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\harry_poter.jpg"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\ff0d859cb481a2c7f7bb55268503ba749281ba05\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\harry_poter.jpg",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\harry_poter.jpg"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",

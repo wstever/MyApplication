@@ -28,8 +28,6 @@ android {
 }
 
 
-def retrofitVersion = '2.0.0-beta3'
-
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

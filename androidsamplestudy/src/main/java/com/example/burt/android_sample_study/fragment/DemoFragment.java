@@ -11,15 +11,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.burt.android_sample_study.MainActivity;
 import com.example.burt.android_sample_study.R;
 import com.example.burt.android_sample_study.horizontal_scrollview.HorizontalScrollViewActivity;
 import com.example.burt.android_sample_study.json_demo.JsonDemoActivity;
 import com.example.burt.android_sample_study.mvp_demo.UserLoginActivity;
 import com.example.burt.android_sample_study.project_report.ProjectReportActivity;
-import com.example.burt.android_sample_study.project_report.ProjectReportAdapter;
 import com.example.burt.android_sample_study.recycler_view.RecyclerLayoutManagerChangeActivity;
 import com.example.burt.android_sample_study.recycler_view_long.SelectActivity;
+import com.example.burt.android_sample_study.tab_layout.TabLayoutActivity;
 import com.example.burt.android_sample_study.weekly_report.WeeklyReportActivity;
 
 import java.util.ArrayList;
@@ -90,6 +89,7 @@ public class DemoFragment extends Fragment {
         textList.add("长按RecyclerView的事件触发");
         textList.add("周报模块学习");
         textList.add("项目周报模块学习");
+        textList.add("TabLayout学习");
         textList.add("Gallery转成了HorizonScrollview");
         textList.add("MVPDemo_以登录界面为例");
 
@@ -99,6 +99,7 @@ public class DemoFragment extends Fragment {
         classList.add(SelectActivity.class);
         classList.add(WeeklyReportActivity.class);
         classList.add(ProjectReportActivity.class);
+        classList.add(TabLayoutActivity.class);
         classList.add(HorizontalScrollViewActivity.class);
         classList.add(UserLoginActivity.class);
 

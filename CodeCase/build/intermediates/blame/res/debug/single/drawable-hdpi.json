@@ -104,12 +104,12 @@
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\box.png"
     },
     {
-        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\three.png",
-        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\three.png"
-    },
-    {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\background_card.9.png",
         "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\background_card.9.png"
+    },
+    {
+        "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\three.png",
+        "source": "D:\\demo\\MyApplication\\CodeCase\\src\\main\\res\\drawable-hdpi\\three.png"
     },
     {
         "merged": "D:\\demo\\MyApplication\\CodeCase\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checked.png",

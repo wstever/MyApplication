@@ -50,6 +50,9 @@
             android:name=".project_report.ProjectReportActivity"/>
         <activity
             android:name=".project_report.ProjectReportEditActivity"/>
+
+        <activity
+            android:name=".tab_layout.TabLayoutActivity"/>
     </application>
 
 </manifest>
