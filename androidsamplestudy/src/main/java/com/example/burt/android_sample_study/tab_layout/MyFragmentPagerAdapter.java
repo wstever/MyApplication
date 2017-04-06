@@ -1,6 +1,5 @@
 package com.example.burt.android_sample_study.tab_layout;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;

@@ -44,6 +44,10 @@ dependencies {
     compile 'com.android.volley:volley:1.0.0'
     /*用于MVP模式中,用户界面有需要*/
     compile 'com.android.support:gridlayout-v7:25.3.0'
+    /*用于jsoup*/
+    compile 'org.jsoup:jsoup:1.9.2'
+   /*用于badgeview*/
+    compile files('libs/badgeview.jar')
 
 
 }

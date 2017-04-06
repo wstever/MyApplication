@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_weekly_report_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_weekly_report_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="20dp"
+                android:text="请输入新的一条周报内容："
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/grey_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_weekly_report_edit"
+            android:background="@color/grey_line"/>
+
+        <EditText
+            android:id="@+id/et_weekly_report_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_weekly_report_edit"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/edit_text"
+            android:enabled="true"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minLines="8"
+            android:scrollbars="vertical"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_weekly_report_function"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_weekly_report_edit"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_dark_background">
+
+            <ImageButton
+                android:id="@+id/ib_clear_all"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:background="@drawable/project_report_clear_all"
+                android:onClick="clean_my_weekly_report_et"/>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/ib_clear_all"
+                android:background="@color/grey_line"></View>
+
+            <ImageButton
+                android:id="@+id/ib_brackets"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/view1"
+                android:background="@drawable/project_report_brackets"
+                android:onClick="add_a_weekly_report_brackets"/>
+
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/ib_brackets"
+                android:background="@color/grey_line"></View>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_weekly_report_function"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/bt_add"
+                android:layout_width="331dp"
+                android:layout_height="43dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/btn_determine"
+                android:text="确认添加"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_weekly_report_battery"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/weekly_report_edit_battery"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_weekly_report_battery"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_weekly_report_light"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_weekly_report_light"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

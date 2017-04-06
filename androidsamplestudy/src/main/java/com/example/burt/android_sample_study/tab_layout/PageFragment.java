@@ -39,8 +39,8 @@ public class PageFragment extends Fragment {
     }
 
     private void initView(View rootView) {
-        TextView textView = (TextView) rootView.findViewById(R.id.textView);
-        textView.setText("PageFragment");
+       // TextView textView = (TextView) rootView.findViewById(R.id.textView);
+       // textView.setText("PageFragment");
     }
 
 

@@ -52,11 +52,11 @@ public class TextViewWithCircularIndicator extends TextView {
         int attrCount = attrArray.getIndexCount();
         for (int i = 0; i < attrCount; i++) {
             int attr = attrArray.getIndex(i);
-            switch (attr) {
-                case R.styleable.DateTimePicker_hightlightedTextColor:
-                    ColorStateList stateList = attrArray.getColorStateList(attr);
-                    mCircleColor = stateList.getColorForState(new int[]{android.R.attr.state_selected}, stateList.getDefaultColor());
-                    break;
+
+            if (attr == R.styleable.DateTimePicker_hightlightedTextColor) {
+                ColorStateList stateList = attrArray.getColorStateList(attr);
+                mCircleColor = stateList.getColorForState(new int[]{android.R.attr.state_selected}, stateList.getDefaultColor());
+                break;
             }
         }
         mRadius = res.getDimensionPixelOffset(R.dimen.month_select_circle_radius);

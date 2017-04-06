@@ -36,6 +36,8 @@
         <activity
             android:name=".recycler_view_long.RecyclerViewActivity"/>
         <activity
+            android:name=".recycler_view_custom_ui.CustomRvActivity"/>
+        <activity
             android:name=".weekly_report.WeeklyReportActivity"/>
         <activity
             android:name=".weekly_report.WeeklyReportEditActivity"/>
@@ -53,6 +55,16 @@
 
         <activity
             android:name=".tab_layout.TabLayoutActivity"/>
+        <!--网络爬虫-->
+        <activity
+            android:name=".spider.SpiderTextViewActivity"/>
+        <activity
+            android:name=".spider.SpiderWebViewActivity"/>
+        <activity
+            android:name=".spider.SpiderSelectActivity"/>
+        <!--BadgeView测试-->
+        <activity
+            android:name=".badge_view.BadgeViewActivity"/>
     </application>
 
 </manifest>

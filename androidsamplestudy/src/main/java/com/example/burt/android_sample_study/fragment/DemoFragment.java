@@ -12,12 +12,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.burt.android_sample_study.R;
+import com.example.burt.android_sample_study.badge_view.BadgeViewActivity;
 import com.example.burt.android_sample_study.horizontal_scrollview.HorizontalScrollViewActivity;
 import com.example.burt.android_sample_study.json_demo.JsonDemoActivity;
 import com.example.burt.android_sample_study.mvp_demo.UserLoginActivity;
 import com.example.burt.android_sample_study.project_report.ProjectReportActivity;
 import com.example.burt.android_sample_study.recycler_view.RecyclerLayoutManagerChangeActivity;
+import com.example.burt.android_sample_study.recycler_view_custom_ui.CustomRvActivity;
 import com.example.burt.android_sample_study.recycler_view_long.SelectActivity;
+import com.example.burt.android_sample_study.spider.SpiderSelectActivity;
+import com.example.burt.android_sample_study.spider.SpiderTextViewActivity;
 import com.example.burt.android_sample_study.tab_layout.TabLayoutActivity;
 import com.example.burt.android_sample_study.weekly_report.WeeklyReportActivity;
 
@@ -87,21 +91,26 @@ public class DemoFragment extends Fragment {
         textList.add("RecyclerView含有Grid和Liner转换的Spinner");
         textList.add("与Java Web进行通讯");
         textList.add("长按RecyclerView的事件触发");
+        textList.add("自定义RecyclerView");
         textList.add("周报模块学习");
         textList.add("项目周报模块学习");
         textList.add("TabLayout学习");
         textList.add("Gallery转成了HorizonScrollview");
         textList.add("MVPDemo_以登录界面为例");
-
+        textList.add("网络爬虫,实现读取页面数据");
+        textList.add("BadgeView测试");
 
         classList.add(RecyclerLayoutManagerChangeActivity.class);
         classList.add(JsonDemoActivity.class);
         classList.add(SelectActivity.class);
+        classList.add(CustomRvActivity.class);
         classList.add(WeeklyReportActivity.class);
         classList.add(ProjectReportActivity.class);
         classList.add(TabLayoutActivity.class);
         classList.add(HorizontalScrollViewActivity.class);
         classList.add(UserLoginActivity.class);
+        classList.add(SpiderSelectActivity.class);
+        classList.add(BadgeViewActivity.class);
 
         //不管我的顺序什么,在这里都会被排序的~
         // Collections.sort(textList);

@@ -1,0 +1,4 @@
+<resources>
+    <!--Weekly Report的加号-->
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

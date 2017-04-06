@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ll_week_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@color/grey_line"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPadding="10dp">
+
+            <TextView
+                android:id="@+id/tv_week_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/android:empty"
+                android:layout_alignParentStart="true"
+                android:text="周数:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/et_week_num"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:lines="1"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ll_week_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_week_num"
+            card_view:cardBackgroundColor="@color/grey_line"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPadding="10dp">
+
+            <TextView
+                android:id="@+id/tv_week_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/android:empty"
+                android:layout_alignParentStart="true"
+                android:text="时间:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/et_week_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:lines="1"/>
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_finish_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_week_time"
+            android:background="@drawable/weekly_report_edit_battery">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="本周完成情况:"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_finish_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tv_finish"
+                    android:text="hint:项目名以[]开头"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"/>
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:onClick="add_a_finish_item"
+                android:text="新增"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_finish_title"
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_next_week_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_finish"
+            android:background="@drawable/weekly_report_edit_battery">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id='@+id/tv_next_week_plan'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="下周计划:"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_next_week_plan_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tv_next_week_plan"
+                    android:text="hint:项目名以[]开头"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"/>
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:onClick="add_a_plan_item"
+                android:text="新增"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_next_week_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_next_week_plan"
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_senior_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_next_week_plan"
+            android:background="@drawable/weekly_report_edit_battery"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id='@+id/tv_senior_help'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="需要师兄师姐协助的内容"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_senior_help_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tv_senior_help"
+                    android:text="hint:项目名以[]开头"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"/>
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:drawableRight="@android:drawable/ic_menu_help"
+                android:onClick="ask_for_advice"
+                android:text="请教"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@android:drawable/ic_input_add"
+                android:onClick="add_a_senior_help_item"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_senior_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_senior_help"
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_bug_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rv_senior_help"
+            android:background="@drawable/weekly_report_edit_battery"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id='@+id/tv_bug_record'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="本周重要bug解决情况"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_bug_record_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tv_bug_record"
+                    android:text="hint:项目名以[]开头"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"/>
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:onClick="add_a_bug_record"
+                android:text="新增"/>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_bug_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_bug_record"
+            android:layout_margin="5dp"></android.support.v7.widget.RecyclerView>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

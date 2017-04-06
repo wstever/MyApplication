@@ -84,7 +84,7 @@ public class UserLoginActivity extends Activity implements IUserLoginView {
     @Override
     public void toMainActivity(User user) {
         Toast.makeText(this, user.getUsername() +
-                " login success , to MainActivity", Toast.LENGTH_SHORT).show();
+                " login success , to CustomRvActivity", Toast.LENGTH_SHORT).show();
     }
 
     @Override

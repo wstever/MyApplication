@@ -13,7 +13,7 @@
         android:id="@+id/item_person"
         android:icon="@drawable/ic_person_black_24dp"
         android:title="我的"/>
-    <!--<item-->
+    <!--<custom_rv_item-->
         <!--android:id="@+id/item4"-->
         <!--android:icon="@drawable/ic_person_black_24dp"-->
         <!--android:title="Contact"/>-->

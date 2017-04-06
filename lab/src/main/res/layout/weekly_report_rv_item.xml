@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_weekly_report_item"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#aabebebe">
+
+    <TextView
+        android:id="@+id/tv_weekly_report_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="12"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_weekly_report_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@id/tv_weekly_report_count"
+        android:text="[智慧餐厅]你好"
+        android:textColor="#000"
+        android:textSize="20sp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/iv_weekly_report_item"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_weekly_report_isSolved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:text="进行中"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="gone">
+    </TextView>
+</RelativeLayout>
