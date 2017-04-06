@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_project_report_item"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="5dp"
+    android:background="#aabebebe">
+
+    <TextView
+        android:id="@+id/tv_project_report_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="12"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_project_report_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:text="本添哥"
+
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_project_report_item"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/tv_project_report_name"
+        android:orientation="vertical"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_project_report_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/iv_project_report_item"
+        android:layout_toRightOf="@id/tv_project_report_count"
+        android:ellipsize="end"
+        android:text="[智慧餐厅]你好"
+        android:maxLines="1"
+        android:textColor="#000"
+        android:textSize="20sp">
+    </TextView>
+
+
+</RelativeLayout>
