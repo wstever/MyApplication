@@ -65,6 +65,27 @@
         <!--BadgeView测试-->
         <activity
             android:name=".badge_view.BadgeViewActivity"/>
+        <!--SwipeRefresh下拉刷新-->
+        <activity
+            android:name=".swipe_refresh_layout.SwipeRefreshLayoutDemo"/>
+
+        <!--TabLayout_Toolbar-->
+        <!--必须要重写一个Theme,因为本来的这个Theme是有标题的-->
+        <activity
+            android:name=".tablayout_toolbar.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".tablayout_toolbar.ToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".tablayout_toolbar.SnackBarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--LinearLayout动态修改item-->
+        <activity
+            android:name=".linearlayout_dynamic_add.LinearLayoutDemo"/>
+        <!--listview动态修改item-->
+        <activity
+            android:name=".listview_dynamic_add.ListViewDynamicActivity"/>
     </application>
 
 </manifest>

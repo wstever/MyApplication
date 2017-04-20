@@ -11,6 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.burt.android_sample_study.linearlayout_dynamic_add.LinearLayoutDemo;
+import com.example.burt.android_sample_study.listview_dynamic_add.ListViewDynamicActivity;
+import com.example.burt.android_sample_study.tablayout_toolbar.ToolbarActivity;
 import com.example.burt.android_sample_study.R;
 import com.example.burt.android_sample_study.badge_view.BadgeViewActivity;
 import com.example.burt.android_sample_study.horizontal_scrollview.HorizontalScrollViewActivity;
@@ -21,7 +24,7 @@ import com.example.burt.android_sample_study.recycler_view.RecyclerLayoutManager
 import com.example.burt.android_sample_study.recycler_view_custom_ui.CustomRvActivity;
 import com.example.burt.android_sample_study.recycler_view_long.SelectActivity;
 import com.example.burt.android_sample_study.spider.SpiderSelectActivity;
-import com.example.burt.android_sample_study.spider.SpiderTextViewActivity;
+import com.example.burt.android_sample_study.swipe_refresh_layout.SwipeRefreshLayoutDemo;
 import com.example.burt.android_sample_study.tab_layout.TabLayoutActivity;
 import com.example.burt.android_sample_study.weekly_report.WeeklyReportActivity;
 
@@ -99,6 +102,10 @@ public class DemoFragment extends Fragment {
         textList.add("MVPDemo_以登录界面为例");
         textList.add("网络爬虫,实现读取页面数据");
         textList.add("BadgeView测试");
+        textList.add("下拉刷新demo");
+        textList.add("学习TabLayout以及Toolbar");
+        textList.add("动态修改Linearlayout内容");
+        textList.add("动态修改ListView内容");
 
         classList.add(RecyclerLayoutManagerChangeActivity.class);
         classList.add(JsonDemoActivity.class);
@@ -111,6 +118,10 @@ public class DemoFragment extends Fragment {
         classList.add(UserLoginActivity.class);
         classList.add(SpiderSelectActivity.class);
         classList.add(BadgeViewActivity.class);
+        classList.add(SwipeRefreshLayoutDemo.class);
+        classList.add(ToolbarActivity.class);
+        classList.add(LinearLayoutDemo.class);
+        classList.add(ListViewDynamicActivity.class);
 
         //不管我的顺序什么,在这里都会被排序的~
         // Collections.sort(textList);

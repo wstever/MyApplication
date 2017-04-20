@@ -1,18 +1,6 @@
 <resources>
-    <string name="app_name">AndroidSampleStudy</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">CoolMarketDemo</string>
 
-    <string-array name="recycler_list">
-        <item>LinearLayoutManager</item>
-        <item>GridLayoutManager</item>
-    </string-array>
-
-
-
-
-<!--Toolbar_tablayout-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -30,5 +18,4 @@
     <string name="snackbar_short">在short时间段内显示Snackbar</string>
     <string name="snackbar_action">设置Snackbar的action</string>
     <string name="snackbar_color">自定义Snackbar的文字颜色</string>
-
 </resources>

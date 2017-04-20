@@ -46,8 +46,10 @@ dependencies {
     compile 'com.android.support:gridlayout-v7:25.3.0'
     /*用于jsoup*/
     compile 'org.jsoup:jsoup:1.9.2'
-   /*用于badgeview*/
+    /*用于badgeview*/
     compile files('libs/badgeview.jar')
-
+    /*用于butterknife*/
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 
 }
