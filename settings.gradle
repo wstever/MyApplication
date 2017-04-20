@@ -1,1 +1,1 @@
-include ':CodeCase', ':StyleableDateTimePicker', ':MaterialDesign', ':androidsamplestudy', ':recycleviewdemo_change_grid', ':jsondemo', ':mvpdemo', ':lab'
+include ':CodeCase', ':StyleableDateTimePicker', ':MaterialDesign', ':androidsamplestudy', ':recycleviewdemo_change_grid', ':jsondemo', ':mvpdemo', ':lab', ':app'

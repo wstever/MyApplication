@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/StyleableDateTimePicker/StyleableDateTimePicker.iml" filepath="$PROJECT_DIR$/StyleableDateTimePicker/StyleableDateTimePicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidsamplestudy/androidsamplestudy.iml" filepath="$PROJECT_DIR$/androidsamplestudy/androidsamplestudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsondemo/jsondemo.iml" filepath="$PROJECT_DIR$/jsondemo/jsondemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab/lab.iml" filepath="$PROJECT_DIR$/lab/lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
